@@ -38,6 +38,8 @@ namespace tools
                 transformAll[i].position = originalPosition[i];
             }
         }
+        
     }
+    
 }
 #endif
