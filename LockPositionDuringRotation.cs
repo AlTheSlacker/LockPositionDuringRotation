@@ -11,8 +11,8 @@ namespace tools
 
     public class LockPositionDuringRotation : MonoBehaviour
     {
-        private Transform[] transformAll;
-        private List<Vector3> originalPosition = new List<Vector3>();
+        Transform[] transformAll;
+        List<Vector3> originalPosition = new List<Vector3>();
 
 
         void Start()
