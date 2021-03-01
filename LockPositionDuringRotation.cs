@@ -12,7 +12,7 @@ namespace tools
     public class LockPositionDuringRotation : MonoBehaviour
     {
         Transform[] transformAll;
-        List<Vector3> originalPosition = new List<Vector3>();
+        readonly List<Vector3> originalPosition = new List<Vector3>();
 
 
         void Start()
